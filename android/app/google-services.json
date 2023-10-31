@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984615838239",
+    "project_id": "learne-flutter",
+    "storage_bucket": "learne-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984615838239:android:2960a438b78a89ee92eb2a",
+        "android_client_info": {
+          "package_name": "com.example.learneng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUOI9lum9pO58CJMz_dxzEo-b5-qk67zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
