@@ -29,6 +29,9 @@ class _RegisterPageState extends State<RegisterPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const SizedBox(
+              height: 30.0,
+            ),
             const Text(
               "Learn English App",
               style: TextStyle(
@@ -51,7 +54,35 @@ class _RegisterPageState extends State<RegisterPage> {
               ),
             ),
             const SizedBox(
-              height: 30.0,
+              height: 16.0,
+            ),
+            TextField(
+              obscureText: true,
+              controller: _confirmPasswordController,
+              decoration: InputDecoration(
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10.0),
+                ),
+                hintText: "Full name",
+                prefixIcon: Icon(Icons.people_rounded, color: Colors.black),
+              ),
+            ),
+            const SizedBox(
+              height: 16.0,
+            ),
+            TextField(
+              obscureText: true,
+              controller: _confirmPasswordController,
+              decoration: InputDecoration(
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10.0),
+                ),
+                hintText: "Phone",
+                prefixIcon: Icon(Icons.phone, color: Colors.black),
+              ),
+            ),
+            const SizedBox(
+              height: 16.0,
             ),
             TextField(
               controller: _emailController,
@@ -92,6 +123,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 prefixIcon: Icon(Icons.security, color: Colors.black),
               ),
             ),
+
             const SizedBox(
               height: 30.0,
             ),
@@ -131,7 +163,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     child: const Text("Login", style: TextStyle(
                       color: Colors.black,
                       fontSize: 20.0,
-                      letterSpacing: 1.0,
+                      letterSpacing: 0.5,
                       fontWeight: FontWeight.bold,
                     ),
                     ),
